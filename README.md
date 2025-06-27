@@ -47,14 +47,8 @@ Prerequisites: Java (JDK 8+), VS Code, Terminal.
 Clone the Repository:git clone [<your-repo-url>](https://github.com/TusharSanisare/NotesManagement-JavaFile-I-O_4)
 cd NotesManagement-JavaFile-I-O_4
 
-### Create Directories:
-
-Create src/ and move all .java files into it.
-The app creates NOTES_DIR/ automatically for notes.
-Create bin/ for .class files (or let javac create it).
-
 ```
-Compile:javac -d bin src/*.java
+Compile:javac -d bin*.java
 Run:java -cp bin Main
 ```
 
